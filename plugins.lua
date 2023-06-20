@@ -1,5 +1,23 @@
 local plugins = {
   {
+    "nvim-treesitter/nvim-treesitter",
+    opts = {
+      ensure_installed = {
+        "vim",
+        "lua",
+        "html",
+        "css",
+        "javascript",
+        "typescript",
+        "tsx",
+        "json",
+        "java",
+        "python",
+        "rust",
+      },
+    },
+  },
+  {
     "rcarriga/nvim-dap-ui",
     dependencies = "mfussenegger/nvim-dap",
     config = function()
@@ -52,6 +70,14 @@ local plugins = {
         "mypy",
         "ruff",
         "pyright",
+        "typescript-language-server",
+        "css-lsp",
+        "html-lsp",
+        "json-lsp",
+        "eslint-lsp",
+        "jdtls",
+        "rust-analyzer",
+        "prettier",
       },
     },
   },
