@@ -12,8 +12,11 @@ lspconfig.pyright.setup({
 })
 
 lspconfig.html.setup{}
+<<<<<<< Updated upstream
 
 lspconfig.eslint.setup{}
+=======
+>>>>>>> Stashed changes
 
 lspconfig.cssls.setup( {
   on_attach = on_attach,
@@ -60,3 +63,5 @@ lspconfig.tsserver.setup({
   filetypes = {"javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx"},
   cmd = {"typescript-language-server", "--stdio"},
 })
+
+lspconfig.emmet_ls.setup{}

@@ -78,6 +78,7 @@ local plugins = {
         "jdtls",
         "rust-analyzer",
         "prettier",
+        "emmet-ls",
       },
     },
   },
