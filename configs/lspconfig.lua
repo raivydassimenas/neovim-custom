@@ -11,12 +11,9 @@ lspconfig.pyright.setup({
   filetypes = {"python"},
 })
 
-lspconfig.html.setup({
-  on_attach = on_attach,
-  capabilities = capabilities,
-  filetypes = {"html"},
-  cmd = {"html-lsp"},
-})
+lspconfig.html.setup{}
+
+lspconfig.eslint.setup{}
 
 lspconfig.cssls.setup( {
   on_attach = on_attach,
