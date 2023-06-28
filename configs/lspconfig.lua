@@ -12,11 +12,8 @@ lspconfig.pyright.setup({
 })
 
 lspconfig.html.setup{}
-<<<<<<< Updated upstream
 
 lspconfig.eslint.setup{}
-=======
->>>>>>> Stashed changes
 
 lspconfig.cssls.setup( {
   on_attach = on_attach,
